@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>Satranç Tahtası</title>
+        <link rel="stylesheet" href="bicim.css" type="text/css" >
+        <script src="javaScriptDosyası.js" async></script>
+    </head>
+    <body>
+        <table>
+            <caption class="baslik" align="top">Satranç Tahtası</caption>
+            <tr>
+                <td class="isimUst"></td>
+                <td class="isimUst">A</td>
+                <td class="isimUst">B</td>
+                <td class="isimUst">C</td>
+                <td class="isimUst">D</td>
+                <td class="isimUst">E</td>
+                <td class="isimUst">F</td>
+                <td class="isimUst">G</td>
+                <td class="isimUst">H</td>
+            </tr>
+            <tr>
+                <td class="isimYan">1</td>
+                <td class="beyaz" id="A1" onMouseOver="beyazKaleSolUzerine()" onMouseOut="beyazKaleSolCekince()">&#9814;</td>
+                <td class="siyah" id="B1" onMouseOver="beyazAtSolUzerine()" onMouseOut="beyazAtSolCekince()">&#9816;</td>
+                <td class="beyaz" id="C1" onMouseOver="beyazFilSolUzerine()" onMouseOut="beyazFilSolCekince()">&#9815;</td>
+                <td class="siyah" id="D1" onMouseOver="beyazVezirUzerine()" onMouseOut="beyazVezirCekince()">&#9813;</td>
+                <td class="beyaz" id="E1" onMouseOver="beyazSahUzerine()" onMouseOut="beyazSahCekince()">&#9812;</td>
+                <td class="siyah" id="F1" onMouseOver="beyazFilSagUzerine()" onMouseOut="beyazFilSagCekince()">&#9815;</td>
+                <td class="beyaz" id="G1" onMouseOver="beyazAtSagUzerine()" onMouseOut="beyazAtSagCekince()">&#9816;</td>
+                <td class="siyah" id="H1" onMouseOver="beyazKaleSagUzerine()" onMouseOut="beyazKaleSagCekince()">&#9814;</td>
+            </tr>
+            <tr>
+                <td class="isimYan">2</td>
+                <td class="siyah" id="A2" onMouseOver="beyazPiyon1Uzerine()" onMouseOut="beyazPiyon1Cekince()">&#9817;</td>
+                <td class="beyaz" id="B2" onMouseOver="beyazPiyon2Uzerine()" onMouseOut="beyazPiyon2Cekince()">&#9817;</td>
+                <td class="siyah" id="C2" onMouseOver="beyazPiyon3Uzerine()" onMouseOut="beyazPiyon3Cekince()">&#9817;</td>
+                <td class="beyaz" id="D2" onMouseOver="beyazPiyon4Uzerine()" onMouseOut="beyazPiyon4Cekince()">&#9817;</td>
+                <td class="siyah" id="E2" onMouseOver="beyazPiyon5Uzerine()" onMouseOut="beyazPiyon5Cekince()">&#9817;</td>
+                <td class="beyaz" id="F2" onMouseOver="beyazPiyon6Uzerine()" onMouseOut="beyazPiyon6Cekince()">&#9817;</td>
+                <td class="siyah" id="G2" onMouseOver="beyazPiyon7Uzerine()" onMouseOut="beyazPiyon7Cekince()">&#9817;</td>
+                <td class="beyaz" id="H2" onMouseOver="beyazPiyon8Uzerine()" onMouseOut="beyazPiyon8Cekince()">&#9817;</td>
+            </tr>
+            <tr>
+                <td class="isimYan">3</td>
+                <td class="beyaz" id="A3" onMouseOver="A3Uzerine()" onMouseOut="A3Cekince()"></td>
+                <td class="siyah" id="B3" onMouseOver="B3Uzerine()" onMouseOut="B3Cekince()"></td>
+                <td class="beyaz" id="C3" onMouseOver="C3Uzerine()" onMouseOut="C3Cekince()"></td>
+                <td class="siyah" id="D3" onMouseOver="D3Uzerine()" onMouseOut="D3Cekince()"></td>
+                <td class="beyaz" id="E3" onMouseOver="E3Uzerine()" onMouseOut="E3Cekince()"></td>
+                <td class="siyah" id="F3" onMouseOver="F3Uzerine()" onMouseOut="F3Cekince()"></td>
+                <td class="beyaz" id="G3" onMouseOver="G3Uzerine()" onMouseOut="G3Cekince()"></td>
+                <td class="siyah" id="H3" onMouseOver="H3Uzerine()" onMouseOut="H3Cekince()"></td>
+            </tr>
+            <tr>
+                <td class="isimYan">4</td>
+                <td class="siyah" id="A4" onMouseOver="A4Uzerine()" onMouseOut="A4Cekince()"></td>
+                <td class="beyaz" id="B4" onMouseOver="B4Uzerine()" onMouseOut="B4Cekince()"></td>
+                <td class="siyah" id="C4" onMouseOver="C4Uzerine()" onMouseOut="C4Cekince()"></td>
+                <td class="beyaz" id="D4" onMouseOver="D4Uzerine()" onMouseOut="D4Cekince()"></td>
+                <td class="siyah" id="E4" onMouseOver="E4Uzerine()" onMouseOut="E4Cekince()"></td>
+                <td class="beyaz" id="F4" onMouseOver="F4Uzerine()" onMouseOut="F4Cekince()"></td>
+                <td class="siyah" id="G4" onMouseOver="G4Uzerine()" onMouseOut="G4Cekince()"></td>
+                <td class="beyaz" id="H4" onMouseOver="H4Uzerine()" onMouseOut="H4Cekince()"></td>
+            </tr>
+            <tr>
+                <td class="isimYan">5</td>
+                <td class="beyaz" id="A5" onMouseOver="A5Uzerine()" onMouseOut="A5Cekince()"></td>
+                <td class="siyah" id="B5" onMouseOver="B5Uzerine()" onMouseOut="B5Cekince()"></td>
+                <td class="beyaz" id="C5" onMouseOver="C5Uzerine()" onMouseOut="C5Cekince()"></td>
+                <td class="siyah" id="D5" onMouseOver="D5Uzerine()" onMouseOut="D5Cekince()"></td>
+                <td class="beyaz" id="E5" onMouseOver="E5Uzerine()" onMouseOut="E5Cekince()"></td>
+                <td class="siyah" id="F5" onMouseOver="F5Uzerine()" onMouseOut="F5Cekince()"></td>
+                <td class="beyaz" id="G5" onMouseOver="G5Uzerine()" onMouseOut="G5Cekince()"></td>
+                <td class="siyah" id="H5" onMouseOver="H5Uzerine()" onMouseOut="H5Cekince()"></td>
+            </tr>
+            <tr>
+                <td class="isimYan">6</td>
+                <td class="siyah" id="A6" onMouseOver="A6Uzerine()" onMouseOut="A6Cekince()"></td>
+                <td class="beyaz" id="B6" onMouseOver="B6Uzerine()" onMouseOut="B6Cekince()"></td>
+                <td class="siyah" id="C6" onMouseOver="C6Uzerine()" onMouseOut="C6Cekince()"></td>
+                <td class="beyaz" id="D6" onMouseOver="D6Uzerine()" onMouseOut="D6Cekince()"></td>
+                <td class="siyah" id="E6" onMouseOver="E6Uzerine()" onMouseOut="E6Cekince()"></td>
+                <td class="beyaz" id="F6" onMouseOver="F6Uzerine()" onMouseOut="F6Cekince()"></td>
+                <td class="siyah" id="G6" onMouseOver="G6Uzerine()" onMouseOut="G6Cekince()"></td>
+                <td class="beyaz" id="H6" onMouseOver="H6Uzerine()" onMouseOut="H6Cekince()"></td>
+            </tr>
+            <tr>
+                <td class="isimYan">7</td>
+                <td class="beyaz" id="A7" onMouseOver="siyahPiyon1Uzerine()" onMouseOut="siyahPiyon1Cekince()">&#9823;</td>
+                <td class="siyah" id="B7" onMouseOver="siyahPiyon2Uzerine()" onMouseOut="siyahPiyon2Cekince()">&#9823;</td>
+                <td class="beyaz" id="C7" onMouseOver="siyahPiyon3Uzerine()" onMouseOut="siyahPiyon3Cekince()">&#9823;</td>
+                <td class="siyah" id="D7" onMouseOver="siyahPiyon4Uzerine()" onMouseOut="siyahPiyon4Cekince()">&#9823;</td>
+                <td class="beyaz" id="E7" onMouseOver="siyahPiyon5Uzerine()" onMouseOut="siyahPiyon5Cekince()">&#9823;</td>
+                <td class="siyah" id="F7" onMouseOver="siyahPiyon6Uzerine()" onMouseOut="siyahPiyon6Cekince()">&#9823;</td>
+                <td class="beyaz" id="G7" onMouseOver="siyahPiyon7Uzerine()" onMouseOut="siyahPiyon7Cekince()">&#9823;</td>
+                <td class="siyah" id="H7" onMouseOver="siyahPiyon8Uzerine()" onMouseOut="siyahPiyon8Cekince()">&#9823;</td>
+            </tr>
+            <tr>
+                <td class="isimYan">8</td>
+                <td class="siyah" id="A8" onMouseOver="siyahKaleSolUzerine()" onMouseOut="siyahKaleSolCekince()">&#9820;</td>
+                <td class="beyaz" id="B8" onMouseOver="siyahAtSolUzerine()" onMouseOut="siyahAtSolCekince()">&#9822;</td>
+                <td class="siyah" id="C8" onMouseOver="siyahFilSolUzerine()" onMouseOut="siyahFilSolCekince()">&#9821;</td>
+                <td class="beyaz" id="D8" onMouseOver="siyahVezirUzerine()" onMouseOut="siyahVezirCekince()">&#9819;</td>
+                <td class="siyah" id="E8" onMouseOver="siyahSahUzerine()" onMouseOut="siyahSahCekince()">&#9818;</td>
+                <td class="beyaz" id="F8" onMouseOver="siyahFilSagUzerine()" onMouseOut="siyahFilSagCekince()">&#9821;</td>
+                <td class="siyah" id="G8" onMouseOver="siyahAtSagUzerine()" onMouseOut="siyahAtSagCekince()">&#9822;</td>
+                <td class="beyaz" id="H8" onMouseOver="siyahKaleSagUzerine()" onMouseOut="siyahKaleSagCekince()">&#9820;</td>
+            </tr>
+
+        </table>
+
+    </body>
+</html>
